@@ -3,3 +3,7 @@ export * from "./Button";
 export * from "./Header";
 export * from "./Section";
 export * from "./Textarea";
+export * from "./Noteitem";
+export * from "./ButtonText";
+export * from "./Nav";
+export * from "./Tag";

@@ -12,6 +12,7 @@ export const Container = styled.div`
     "section";
 
   .nav {
+    width: fit-content;
     display: flex;
     align-items: center;
     gap: 5px;
@@ -25,4 +26,23 @@ export const Container = styled.div`
   }
 `;
 
-export const Form = styled.div``;
+export const Form = styled.form`
+  > h3 {
+    color: ${({ theme }) => theme.COLORS.GRAY_100};
+    margin-bottom: 10px;
+  }
+  .tags {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: ${({ theme }) => theme.COLORS.BLACK};
+    gap: 5px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+  > footer {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+  }
+`;

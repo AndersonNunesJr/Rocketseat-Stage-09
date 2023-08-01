@@ -16,7 +16,7 @@ export const Container = styled.div`
 export const Profile = styled.div`
   display: flex;
 
-  > img {
+  img {
     width: 64px;
     height: 64px;
     border-radius: 50%;
