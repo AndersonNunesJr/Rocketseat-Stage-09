@@ -7,3 +7,4 @@ export * from "./Noteitem";
 export * from "./ButtonText";
 export * from "./Nav";
 export * from "./Tag";
+export * from "./Note";
